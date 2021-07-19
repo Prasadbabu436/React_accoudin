@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    p {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Javascript function</h1>
+  <h1 onclick="show (this)">Angular</h1>
+  <p id="ang">Angular is typescript base front and framwork. it using directive templates and depemdency injection</p>
+
+  <h1 onclick="show (this)">React</h1>
+  <p id="rec">ReactJS offers graceful solutions to some of front-end programming’s most persistent issues, allowing you
+    to build
+    dynamic and interactive web apps with ease. It’s fast, scalable, flexible, powerful, and has a robust developer
+    community that’s rapidly growing. There’s never been a better time to learn React.</p>
+
+
+
+
+  <script>
+    function show(t) {
+      //console.dir(t)
+    //var x = t.nextElementSibling;
+    var x = t.nextElementSibling;
+    if(x.style.display==""){
+      x.style.display = 'block'
+    }
+  else{
+    x.style.display="";
+  }
+}
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
